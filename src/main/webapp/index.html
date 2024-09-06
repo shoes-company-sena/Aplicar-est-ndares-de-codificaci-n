@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario en Servlet</title>
+</head>
+<body>
+<h2>Formulario de Prueba</h2>
+
+<!-- Formulario que usa GET para enviar datos -->
+<form action="formHandler" method="GET">
+    <label for="nombre">Nombre (GET):</label>
+    <input type="text" id="nombre" name="nombre">
+    <input type="submit" value="Enviar por GET">
+</form>
+
+<br><br>
+
+<!-- Formulario que usa POST para enviar datos -->
+<form action="formHandler" method="POST">
+    <label for="nombre">Nombre (POST):</label>
+    <input type="text" id="nombre" name="nombre">
+    <input type="submit" value="Enviar por POST">
+</form>
+</body>
+</html>
