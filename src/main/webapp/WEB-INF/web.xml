@@ -9,6 +9,17 @@
         <servlet-class>org.example.HelloServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>ProductController</servlet-name>
+        <servlet-class>org.example.controller.ProductController</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>ProductController</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>helloServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
